@@ -1,0 +1,31 @@
+.book-item {
+  overflow: hidden;
+  padding: 0 20rpx 20rpx;
+}
+.book-name,
+.book-author,
+.book-desc {
+  overflow: hidden;
+  padding-left: 20rpx;
+}
+.book-cover {
+  float: left;
+  width: 160rpx;
+  height: 240rpx;
+  box-shadow: 0 2rpx 6rpx 2rpx #ddd;
+}
+.book-name {
+  margin-top: 20rpx;
+  font-size: 36rpx;
+  color: #333;
+}
+.book-author, .book-desc {
+  font-size: 28rpx;
+  color: #999;
+}
+
+.book-desc {
+  display: -webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient: vertical;
+}
